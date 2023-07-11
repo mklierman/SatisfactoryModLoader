@@ -297,7 +297,7 @@ private:
 	void Input_HologramNudgeAxis( const FInputActionValue& actionValue );
 	void Input_SnapToGuideLines( const FInputActionValue& actionValue );
 	
-private:
+public:
 	/** stores a time we have held the primary fire button for. Used so we can detect if it's a hold or tap or similar*/
 	float mPrimaryFireHoldTime = -1;
 

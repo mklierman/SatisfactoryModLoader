@@ -48,7 +48,7 @@ public:
 	/** Cached size of the item */
 	mutable int32 CachedStackSize = INDEX_NONE;
 	
-private:
+public:
 	/** The type of item */
 	UPROPERTY( EditAnywhere )
 	TSubclassOf< class UFGItemDescriptor > ItemClass;

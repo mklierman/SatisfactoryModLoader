@@ -6,6 +6,7 @@
 #include "Buildables/FGBuildableWire.h"
 #include "Hologram/FGBuildableHologram.h"
 #include "FGCircuitConnectionComponent.h"
+#include "Hologram/FGPowerPoleHologram.h"
 #include "FGPowerConnectionComponent.h"
 #include "FGWireHologram.generated.h"
 

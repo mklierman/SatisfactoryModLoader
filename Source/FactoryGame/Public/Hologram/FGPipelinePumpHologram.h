@@ -26,7 +26,7 @@ public:
 	FPumpHeadLiftLocationPath& AddNextPath( const FPumpHeadLiftLocationPath& NextPath );
 	FPumpHeadLiftLocationPath& AddNextPath( const class USplineComponent* pSpline, float StartOffset, float EndOffset, bool ReverseDirection );
 
-private:
+public:
 	const class USplineComponent* Spline;
 
 	float OffsetStart;

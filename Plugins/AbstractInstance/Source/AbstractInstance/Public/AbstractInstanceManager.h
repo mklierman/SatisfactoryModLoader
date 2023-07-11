@@ -126,7 +126,7 @@ public:
 
 	FORCEINLINE bool CanLazyLoad() const { return bAllowLazySpawn; }
 	
-protected:	
+public:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
@@ -163,7 +163,7 @@ protected:
 	UPROPERTY()
 	AActor* CachedPlayerCharacter;
 	
-private:
+public:
 	UFUNCTION()
 	void DrawDebug();
 
